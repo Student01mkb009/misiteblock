@@ -45,7 +45,13 @@
     <img src="pictures/Lonesome rooster.jpg" alt="Очень одинокий петух" style="width: 320px; float:left; margin-right:10px;"/>
     <h1>Очень одинокий петух</h1>
     <p>А этот шедевр - более позднее творение, развивающее традицию, заложенную всемирно известным шведом, который живёт на крыше!</p> 
-    <a href="pictures/Lonesome rooster.jpg" download="picture2"><button onclick="ym(96451293,'reachGoal','button')">Скачать картину</button></a>
+    <a href="pictures/Lonesome rooster.jpg" download="picture2"><button onclick="ym(96451293,'reachGoal','button');
+                                                                    onclick="ym(96451293,'reachGoal','click_e');
+                                                gtag('event', 'buttonRooster', {
+                                                'stranica': 'catalog',
+                                                })                                
+                                              "
+                                                                    ">Скачать картину</button></a>
 </div>
 <div style="clear:left">
     <p>Для перехода к началу нажми <a href="index.html" target="_blank"> ТУТ </a></p>
